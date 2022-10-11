@@ -8,10 +8,7 @@
     <!-- Footer -->
     <MainFooter :categories-labels="CategoriesLabels" :get-edu-menu-items="getEduMenuItems"
       :networking-menu-items="NetworkingMenuItems" />
-    <!-- Back to top arrow -->
-    <aside :class="['c-pointer', { 'd-block': hasScrolled }]" @click="scrollToTop" id="back-to-top-arrow">
-      <img src="./assets/img/back-to-top-arrow.svg" alt="Back to top arrow">
-    </aside>
+    
   </div>
 </template>
 
